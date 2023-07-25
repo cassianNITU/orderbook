@@ -143,7 +143,7 @@ public class OrderBookTest {
     public void testGetOrdersForSideInLevelAndTimeOrder() {
         Order order1 = new Order(1, 100.0, 'B', 5);
         Order order2 = new Order(2, 110.0, 'B', 3); // highest bid
-        Order order3 = new Order(3, 90, 'B', 2);
+        Order order3 = new Order(3, 90.0, 'B', 2);
 
         Order order4 = new Order(4, 100.0, 'O', 2); //lower offer
         Order order5 = new Order(5, 100.0, 'O', 4); //lower offer
